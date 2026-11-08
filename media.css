@@ -1,0 +1,166 @@
+/*lg */
+
+@media (max-width:1024px){
+
+    .container{
+        width:90%;
+    }
+
+    .hero-content{
+        gap:40px;
+    }
+
+    .product-details h1{
+        font-size:38px;
+    }
+
+    .product-details p{
+        font-size:16px;
+    }
+
+    .price .current{
+        font-size:34px;
+    }
+
+    .price .old{
+        font-size:24px;
+    }
+
+    .list{
+        width:60%;
+    }
+
+}
+
+
+/*md */
+
+@media (max-width:768px){
+
+    .container{
+        width:90%;
+    }
+
+    .navbar{
+        flex-direction:column;
+        padding:15px 0;
+    }
+
+    .list{
+        width:100%;
+        margin-top:10px;
+    }
+
+    .list ul{
+        justify-content:space-evenly;
+        padding:0;
+    }
+
+    .hero-content{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .product-image{
+        order:1;
+    }
+
+    .product-details{
+        order:2;
+    }
+
+    .product-details h1{
+        font-size:34px;
+    }
+
+    .product-details p{
+        font-size:17px;
+    }
+
+    .price .current{
+        font-size:32px;
+    }
+
+    .price .old{
+        font-size:22px;
+    }
+
+    .product-details button{
+        font-size:18px;
+        height:55px;
+    }
+
+}
+
+
+/* sm */
+
+@media (max-width:640px){
+
+    .container{
+        width:95%;
+    }
+
+    .logo h2{
+        font-size:22px;
+    }
+
+    .list ul{
+        flex-direction:column;
+        gap:12px;
+        align-items:center;
+    }
+
+    #home{
+        padding-top:170px;
+    }
+
+    .hero-content{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .image-box{
+        padding:20px;
+    }
+
+    .discount{
+        top:20px;
+        left:20px;
+        font-size:12px;
+    }
+
+    .tags{
+        justify-content:center;
+    }
+
+    .product-details{
+        text-align:center;
+    }
+
+    .product-details h1{
+        font-size:30px;
+    }
+
+    .product-details p{
+        font-size:16px;
+    }
+
+    .price{
+        justify-content:center;
+    }
+
+    .price .current{
+        font-size:28px;
+    }
+
+    .price .old{
+        font-size:20px;
+    }
+
+    .product-details button{
+        width:100%;
+        font-size:17px;
+    }
+
+}
